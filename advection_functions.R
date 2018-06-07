@@ -1,4 +1,4 @@
-#   install.packages(c("visNetwork", "igraph", "XML", "magrittr", "plotly", "crosstalk", "parallel", "fastmatch", "igraph", "text2vec", "grr", "Matrix", "text2vec", "compiler"))
+#  install.packages(c("visNetwork", "igraph", "XML", "magrittr", "plotly", "crosstalk", "parallel", "fastmatch", "text2vec", "grr", "Matrix", "compiler"))
 
 
 # packages
