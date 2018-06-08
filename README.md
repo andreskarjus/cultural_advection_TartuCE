@@ -8,15 +8,13 @@
 - If you make use of these scripts, please cite the following paper which defines and describes the model: Andres Karjus, Richard A. Blythe, Simon Kirby, Kenny Smith, 2018. Quantifying the dynamics of topical fluctuations in language. arXiv preprint. https://arxiv.org/abs/1806.00699. bib: 
 ```
 @ARTICLE{karjus_quantifying_2018,
-   author = {{Karjus}, A. and {Blythe}, R.~A. and {Kirby}, S. and {Smith}, K.
-	},
-    title = "{Quantifying the dynamics of topical fluctuations in language}",
+  author = {{Karjus}, A. and {Blythe}, R.~A. and {Kirby}, S. and {Smith}, K.},
+  title = "{Quantifying the dynamics of topical fluctuations in language}",
   journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1806.00699},
- primaryClass = "cs.CL",
- keywords = {Computer Science - Computation and Language},
-     year = 2018
+  archivePrefix = "arXiv",
+  eprint = {1806.00699},
+  primaryClass = "cs.CL",
+  year = 2018
 }
 ```
 
