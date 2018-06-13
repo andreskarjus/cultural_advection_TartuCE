@@ -1,4 +1,8 @@
-#### boardgames ####
+#### Boardgames ####
+#
+# Scripts to calculate the topical-cultural advection values on various datasets.
+# Andres Karjus, University of Edinburgh
+#
 
 THISFOLDER = "" # define the path to the folder where this file and the scripts file are
 

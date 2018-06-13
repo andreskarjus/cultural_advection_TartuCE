@@ -1,7 +1,15 @@
-#  install.packages(c("visNetwork", "igraph", "XML", "magrittr", "plotly", "crosstalk", "parallel", "fastmatch", "text2vec", "grr", "Matrix", "compiler"))
+#
+# Functions for the scripts to calculate the topical-cultural advection values on various datasets.
+# Andres Karjus, University of Edinburgh
+#
 
+# The following packages are required; this bit will attempt to install the missing ones.
+p = setdiff(c("visNetwork", "igraph", "XML", "magrittr", "plotly", "crosstalk", "parallel", "fastmatch", "text2vec", "grr", "Matrix", "compiler"), rownames(installed.packages()))
+if(length(p)>0) {install.packages(p)}
 
-# packages
+# Note: text2vec is in beta, the scripts here used v0.5.0.
+
+# load packages
 library(visNetwork)
 library(igraph)
 library(XML)
@@ -10,11 +18,9 @@ library(plotly)
 library(crosstalk)
 library(parallel)
 library(fastmatch)
-library(igraph)
 library(text2vec)
 library(grr)
 library(Matrix)
-library(text2vec)
 library(compiler)
 
 
